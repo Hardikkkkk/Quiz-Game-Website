@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Fugaz+One&family=Outfit:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./styleSports.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="container">
+
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="./sports.mp4" type="video/mp4">
+            </video> 
+
+        <h2>Choose one option from the four given options...</h2>
+        <button class="backHome"><a href="/index.html">Go Back Home!</a></button> <br>
+        
+        <div id="safeTimer">
+            <h2>Safe Timer</h2>
+            <p id="safeTimerDisplay" style="color: white; font-size: 25px;">You will be redirected after 00:59</p>
+        </div>
+
+        
+
+        <section class="quiz">
+            <img src="./sports.jpg" alt="covid" width="400px">
+            <div class="questions">
+                <div class="innerquestionContent">
+                    <p class="asking">Test your knowledge on Sports!</p>
+                    <p class="expo hidden"></p>
+                    <button class="alternative start">Start</button>
+                    <button class="alternative a hidden">Option a</button>
+                    <button class="alternative b hidden">Option b</button>
+                    <button class="alternative c hidden">Option c</button>
+                    <button class="alternative d hidden">Option d</button>
+                    <div class="score"></div>
+                    <button class="next hidden">Next</button>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./questionsSports.js"></script>
+</body>
+
+</html>

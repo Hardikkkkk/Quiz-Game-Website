@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Madimi One", sans-serif;
+}
+
+li,
+a {
+    font-weight: 500;
+    font-size: 15px;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    background-color: #457b9d;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 120px;
+
+    width: 100%;
+
+
+}
+
+.logo {
+    cursor: pointer;
+    width: 320px;
+    height: 150px;
+    margin: 40px 30px 40px;
+}
+
+
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+
+.nav_links li a:hover {
+    font-size: 19px;
+}
+
+.nav_links li a:active {
+    color: #ff480b;
+}
+
+/* nav li a:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: white;
+} */
+
+
+nav li a:hover {
+    color: #ff8c69;
+    transform: all 0.4s ease 0s;
+    text-decoration: overline;
+}
+
+.flexTopics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+
+.topicName a {
+    text-decoration: none;
+    color: #080000;
+    font-size: 17px;
+}
+
+
+
+.topicName a:hover {
+    color: #fd8a51;
+    transition: 0.3s;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    font-weight: bolder;
+}
+
+.startQuiz {
+    padding: 27px 45px;
+    margin: 35px auto 60px;
+    display: block;
+    background-color: #ecf39e;
+    border-color: #080000;
+    border: black solid 4px;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 0 5px rgb(122, 122, 122);
+
+}
+
+.startQuiz a {
+    color: black;
+}
+
+.startQuiz:hover {
+    background-color: #dbe290;
+}
+
+
+.startQuiz:active {
+    background-color: #d8e18a;
+    box-shadow: 0 2px rgb(69, 69, 69);
+    transform: translateY(3px);
+}
+
+
+
+.enigma {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    padding: 50px;
+    margin: 0 0 40px;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    color: rgb(255, 255, 255);
+    background: #7d7c7c;
+
+    line-height: 20px;
+
+    letter-spacing: 5px;
+}
+
+
+.grid-container {
+    background-color: #959595;
+}
+
+.grid-container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.card1 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.card2 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.card3 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 10px;
+    padding: 0 10px;
+}
+
+.card1:hover .content1 {
+    bottom: 10px;
+}
+
+.card2:hover .content2 {
+    bottom: 10px;
+}
+
+.card3:hover .content3 {
+    bottom: 10px;
+}
+
+.card1:hover img {
+    filter: brightness(0.6);
+
+}
+
+.card2:hover img {
+    filter: brightness(0.6);
+
+}
+
+.card3:hover img {
+    filter: brightness(0.6);
+
+}
+
+.card1>img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+
+.card2>img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+
+.card3>img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+
+.content1 {
+    position: absolute;
+    bottom: -120px;
+    left: 10px;
+    color: #fff;
+    transition: all 0.3s;
+    padding: 0 10px;
+}
+
+.content2 {
+    position: absolute;
+    bottom: -180px;
+    left: 10px;
+    color: #fff;
+    transition: all 0.3s;
+    padding: 0 10px;
+}
+
+.content3 {
+    position: absolute;
+    bottom: -140px;
+    left: 10px;
+    color: #fff;
+    transition: all 0.3s;
+    padding: 0 10px;
+}
+
+.footer {
+    background-color: rgb(56, 56, 56);
+    font-family: "Rubik", sans-serif;
+}
+
+.footContent {
+    font-family: "Outfit", sans-serif;
+    color: white;
+    height: 270px;
+    font-size: 20px;
+    padding: 30px 10px 30px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.social {
+    text-align: center;
+}
+
+i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+b {
+    color: #f9ffbf;
+}
+
+.card:hover {
+    filter: brightness(0.6);
+}

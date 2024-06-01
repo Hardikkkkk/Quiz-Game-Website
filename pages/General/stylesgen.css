@@ -1,0 +1,161 @@
+html,
+body {
+    text-align: center;
+    background-color: #c9daff;
+    font-family: "Outfit", sans-serif;
+    margin: 5px;
+
+}
+.backHome{
+    padding: 7px 17px 7px 17px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff6f;
+    text-decoration: none;
+}
+.backHome a{
+    text-decoration: none;
+    color: black;
+}
+.backHome:hover{
+    color: white;
+    background-color: #fe6449;
+    transition-duration: .3s;
+}
+
+.backHome a:active{
+    background-color:#fe6449 ;
+}
+.backHome :active{
+    transition-duration: 0s;
+    background-color: #a43723;
+
+}
+button {
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.quiz {
+    width: 400px;
+    height: auto;
+    background-color: #ffffff6f;
+    border-radius: 10px;
+    animation: opacity 1.5s;
+    transition: height 0.5s ease-in-out;
+    margin: auto;
+
+}
+
+img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.questions {
+    width: inherit;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.asking {
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.expo {
+    border: 0;
+    margin: 0;
+    position: relative;
+    top: 1em;
+    padding: 20px;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.innerquestionContent {
+    margin: 20px;
+}
+
+.alternative {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    animation: display 2.1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+}
+
+.alternative:hover {
+    box-shadow: .5px .5px 7px #989fff;
+    font-size: 16px;
+    transition: .3s;
+    background-color: #989fff;
+}
+
+.alternative:active {
+    background-color: #574ea6;
+    color: white;
+    transition: .01s;
+}
+
+.start {
+    animation-duration: 2s;
+    border: none;
+    border-radius: 10px;
+}
+
+.start:hover {
+    box-shadow: .2px .2px 8px #574ea6;
+    color: white;
+    background-color: #5c4fd3;
+    transition-duration: .4s;
+}
+
+.next {
+
+    text-align: center;
+    padding: 17px 40px 17px 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #2f80d1;
+    animation: opacity 1.3s;
+}
+
+.next:hover {
+    box-shadow: .2px .2px 8px #574ea6;
+    color: white;
+    background-color: #5c4fd3;
+    transition-duration: .4s;
+}
+
+.score {
+
+    padding: 7px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected {
+    background-color: rgb(255, 73, 73);
+}
+
+.correct {
+    background-color: #4dff4d;
+    font-weight: bold;
+    box-sizing: border-box;
+}
